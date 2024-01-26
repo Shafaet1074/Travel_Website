@@ -1,0 +1,48 @@
+header {
+  padding: 50px 240px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 44px;
+  font-weight: 500;
+  font-size: 1.12rem;
+  color: #424247;
+}
+.home {
+  color: #ff5400;
+}
+.logo {
+  display: flex;
+}
+.nav-title {
+  font-size: 36px;
+}
+.title-span {
+  color: #ff5400;
+}
+.menubar {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  header {
+    padding: 10px;
+  }
+  .nav {
+    font-size: 0.5rem;
+  }
+  .menubar {
+    display: flex;
+    justify-content: space-between;
+  }
+  ul {
+    display: none;
+  }
+}
