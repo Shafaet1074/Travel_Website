@@ -2,7 +2,7 @@
 
 .text-color {
   color: rgba(19, 19, 24, 0.7);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
@@ -16,7 +16,7 @@
 
 .all-heading {
   color: #131318;
-  font-size: 4rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 800;
 }
@@ -183,6 +183,70 @@ main {
 .img6 {
   width: 70%;
 }
+
+/* service-description */
+
+.heading1 {
+  font-size: 2rem;
+}
+
+/* Choose Us */
+.choose-us {
+  align-items: center;
+}
+.heading {
+  text-align: center;
+  color: #131318;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+}
+.para {
+  text-align: center;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.service-description {
+  padding-top: 50px;
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 150px;
+  width: 100%;
+}
+.service-work1 {
+  width: 100%;
+  background: rgba(251, 181, 99, 0.05);
+}
+.service-work2 {
+  background: rgba(41, 206, 246, 0.05);
+}
+.service-img {
+  width: 8%;
+}
+.service-description1 {
+  padding-top: 50px;
+  padding-left: 340px;
+
+  width: 50%;
+}
+.para1 {
+  margin-right: 20px;
+  /* width: 50%; */
+
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.paradiv {
+  width: 100%;
+  padding-right: 50px;
+  text-align: center;
+}
+.service-work3 {
+  background: rgba(233, 68, 68, 0.05);
+}
+
 @media screen and (max-width: 576px) {
   nav {
     display: flex;
@@ -214,12 +278,15 @@ main {
     width: 100%;
     height: 350px;
   }
-  .text-color {
-    font-size: 1rem;
+  .text-color,
+  .tour-heading,
+  .heading {
+    font-size: 1.5rem;
   }
-  .tour-heading {
-    font-size: 1rem;
+  .para {
+    font-size: 0.9rem;
   }
+
   .tour-text {
     height: auto;
     width: auto;
@@ -246,6 +313,14 @@ main {
   .img4,
   .img5,
   .img6 {
+    width: 100%;
+  }
+  .service-description {
+    flex-direction: column;
+  }
+  .service-description1 {
+    padding-top: 20px;
+    padding-left: 0px;
     width: 100%;
   }
 }
